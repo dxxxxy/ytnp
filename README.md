@@ -1,7 +1,7 @@
 # ytnp
 > **Y**ou**T**ube(**N**o**P**opup|**N**o**P**roblem)
 
-Very lightweight Chrome extension leveraging the [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) to disable YouTube's annoying popups about Adblock.
+Very lightweight Chrome extension leveraging the [Mutation Observer API](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) to remove YouTube's annoying popups about Adblock.
 
 ## Setup
 1. Download the source.
