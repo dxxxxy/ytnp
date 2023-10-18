@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "ytnp",
+    "description": "Prevents the popup notifier from appearing on YouTube",
+    "version": "0.0.0",
+    "content_scripts": [
+        {
+          "js": [ "ytnp.js" ],
+          "matches": [ "https://www.youtube.com/*" ]
+        }
+      ]
+  }
