@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "ytnp",
-    "description": "Prevents the popup notifier from appearing on YouTube",
+    "description": "Very lightweight Chrome extension leveraging the Mutation Observer API to disable YouTube's annoying popups about Adblock.",
     "version": "0.0.0",
     "content_scripts": [
         {
