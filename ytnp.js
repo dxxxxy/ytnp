@@ -14,7 +14,10 @@ const tick = setInterval(() => {
                console.log("removed.")
    
                //resume video
-               document.querySelector("#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button").click()
+               if (document.querySelector("#movie_player > div.html5-video-container > video").paused) {
+                  document.querySelector("#movie_player > div.ytp-chrome-bottom > div.ytp-chrome-controls > div.ytp-left-controls > button").click()
+                  console.log("resumed.")
+               }
             }
          } catch {} //disregard errors
       }).observe(document.querySelector("body > ytd-app > ytd-popup-container"), { childList: true, subtree: true })
